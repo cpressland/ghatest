@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ghatest"
+version = "0.1.0"
+description = ""
+authors = ["Chris Pressland <mail@cpressland.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+flake8 = "^3.9.2"
+ptpython = "^3.0.20"
+isort = "^5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
