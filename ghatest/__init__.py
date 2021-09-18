@@ -3,7 +3,7 @@ import requests
 
 def main():
     r = requests.get("https://httpstat.us/200")
-    print(r.text)
+    return print(r.text)
 
 
 if __name__ == "__main__":
